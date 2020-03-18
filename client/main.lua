@@ -46,7 +46,7 @@ RegisterCommand('faturalar', function()
 	end
 end, false)
 
-RegisterKeyMapping('showbills', _U('keymap_showbills'), 'keyboard', 'F7')
+RegisterKeyMapping('faturalar', _U('keymap_showbills'), 'keyboard', 'F7')
 
 AddEventHandler('esx:onPlayerDeath', function() isDead = true end)
 AddEventHandler('playerSpawned', function(spawn) isDead = false end)
